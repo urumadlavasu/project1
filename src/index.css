@@ -6,3 +6,20 @@
   padding: 10px;
   margin: 10px;
 }
+#countries{
+  display: flex;
+  flex-wrap: wrap;
+  text-align:center ;
+  justify-content: space-between;
+}
+#countries li {
+  width:150px;
+  list-style: none;
+  border: 1px solid lightgray;
+  margin: 5px;
+  box-shadow: 1px 1px 10px 2px;
+  
+}
+#countries img{
+  width: 100%;
+}
